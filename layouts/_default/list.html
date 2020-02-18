@@ -6,7 +6,7 @@
 
 {{ .Content }}
 
-<ul>
+<ul class="list">
   {{ $pages := .Pages }}
   {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
   {{ range (where $pages "Section" "!=" "") }}

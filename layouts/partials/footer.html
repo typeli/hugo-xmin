@@ -2,7 +2,8 @@
   {{ partial "foot_custom.html" . }}
   {{ with .Site.Params.footer }}
   <hr/>
-  {{ . | markdownify }}
+
+  {{ . | markdownify }} | <a href="#" class="btt">↑</a>
   {{ end }}
   </footer>
   </body>

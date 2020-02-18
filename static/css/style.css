@@ -1,20 +1,44 @@
 body {
-  max-width: 800px;
+  max-width: 680px;
   margin: auto;
+  margin-left: 284px;
   padding: 1em;
-  line-height: 1.5em;
 }
 
 /* header and footer areas */
 .menu { padding: 0; }
+
 .menu li { display: inline-block; }
-.article-meta, .menu a {
+
+.menu a {
+  padding: 5px;
+}
+
+.menu a:link {
+  color: black;
+}
+
+.menu a:visited {
+  color: black;
+}
+
+a {
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.article-meta {
+  text-align: left;
   text-decoration: none;
-  background: #eee;
   padding: 5px;
   border-radius: 5px;
 }
-.menu, .article-meta, footer { text-align: center; }
+
+.menu { text-align: center; }
+footer { text-align: center; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
 hr {
@@ -25,7 +49,6 @@ hr {
 /* code */
 pre {
   border: 1px solid #ddd;
-  box-shadow: 5px 5px 5px #eee;
   padding: 1em;
   overflow-x: auto;
 }
@@ -49,3 +72,23 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+/*.btt:link {*/
+/*  color: blue;*/
+/*}*/
+
+.btt:visited {
+  color: blue;
+}
+
+.btt:hover {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: square;
+}
+
+.list li {
+  margin: 0.5em;
+}
