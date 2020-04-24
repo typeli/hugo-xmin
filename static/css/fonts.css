@@ -1,5 +1,7 @@
 body {
-  font-family: "Source Han Serif", "Noto Serif SC", sans-serif;
+  font-family: "Times New Roman", "Helvetica", "Tahoma", "Arial", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft Yahei", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5;
 }
 code {
   font-family: "Source Code Pro",  monospace;
